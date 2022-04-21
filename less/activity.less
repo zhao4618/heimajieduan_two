@@ -1,0 +1,342 @@
+//out:../css/
+@rootSize:75rem;
+// 头部
+header{  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: (130/@rootSize);
+    background-color: #fff;
+    // 头顶部
+    .title{
+        display: flex;
+        padding: 0 (30/@rootSize);
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        // 右侧品牌
+        .right{
+            .brand{
+                display: flex;
+                align-items: center;
+                margin-bottom: (10/@rootSize);
+                i{  
+                    margin-right: (10/@rootSize);            
+                    width: (60/@rootSize);
+                    height: (36/@rootSize);
+                    background-image: url(../images/品牌.png);
+                    background-size: cover;
+                }
+                h3{
+                    font-size: (32/@rootSize);
+                }
+            }
+            .txt{
+                position: relative;
+                display: flex;
+                align-items: center;
+                i{
+                    position: absolute;
+                    left: (-32/@rootSize);
+                    top: (6/@rootSize);
+                    width: (24/@rootSize);
+                    height: (24/@rootSize);
+                    background-image: url(../images/减3.png);
+                    background-size: cover;
+                }
+                span{
+                    font-size: (24/@rootSize);
+                    color: #666666 ;
+                }
+            }
+        }
+    }
+    // 头中部公告
+    .blackboard{
+        display: flex;
+        padding: 0 (30/@rootSize);
+        align-items: center;
+        height: (66/@rootSize);
+        background-color: #F2F4FB;
+        i{
+            margin-right: (10/@rootSize);
+            vertical-align: bottom;
+            width: (43/@rootSize);
+            height: (26/@rootSize);
+            background-image: url(../images/公告.png);
+            background-size: cover;  
+        }
+        span{
+            font-size: (26/@rootSize);
+        }
+    }
+    // 头底部课程模块
+    .course{
+        height: (88/@rootSize);
+        padding: (0/@rootSize)!important;
+        background-color: #fff;
+        ul{
+            display: flex;
+            height: 100%;
+        li{
+            display: flex;
+            flex: 1;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            font-size: (28/@rootSize);
+            &.current{
+                color: #333;
+                font-weight: 700;
+            }
+            &:hover{
+                color: #333;
+                font-weight: 700;
+            }
+        }
+        }
+        }
+    }
+}
+// 内容中心模块
+.content_center{
+    margin-top: (306/@rootSize);
+    padding: (30/@rootSize);
+    height: (606/@rootSize);
+    background-color: #fff;
+//    内容顶部模块
+    .title{
+        display: flex;
+        justify-content: space-between;
+        padding-right: (60/@rootSize);
+        height: (100/@rootSize);
+        border-bottom: 1px solid #ccc;
+    //    内容顶部左侧前端框架模块
+        .framework{         
+           .learn{
+               display: flex;
+               align-items: center;
+              ul{
+                  display: flex;
+                li{
+                    a{
+                      display: block;
+                      margin-right: (10/@rootSize);
+                      width: (24/@rootSize);
+                      height: (22/@rootSize);
+                      background-image: url(../images/xingxing1.png);
+                     background-size: cover;
+                    &.current{
+                        background-image: url(../images/xingxing2.png);
+                    } 
+                    }
+                }
+              }
+              
+           }
+            span{     
+                margin-right: (20/@rootSize);         
+                color: #888;
+                font-size:(24/@rootSize);
+            }
+            h3{
+                margin-bottom: (20/@rootSize);
+                font-size:(26/@rootSize);
+            }
+
+        }
+    }
+    // 前端框架右侧收藏模块
+    .collection{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: (62/@rootSize);
+            height: (62/@rootSize);
+            border-radius: 50%;
+            background-color: #FFF3F3 ;
+        }
+        i{
+            width: (33/@rootSize);
+            height: (30/@rootSize);
+            background-image: url(../images/收藏.png);
+            background-size: cover;
+        }
+        p{
+            color: #333;
+            font-size: (22/@rootSize);
+        }
+    }
+    // 初级课程模块
+    .class_grade{
+        display: flex;
+        padding: (30/@rootSize) 0;
+        height: (130/@rootSize);
+        border-bottom: 1px solid #D9DCE6;
+        div{
+            flex: 1;
+            &.bor{
+                border-left: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+            }
+        a{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items: center;
+        .txt{
+            color: #333;
+            font-size: (28/@rootSize);
+        }
+        }
+        }
+    }
+    // 公告与活动
+    .notice{
+        margin: (25/@rootSize) 0;
+        color: #333;
+        font-weight: 700;
+        font-size: (26/@rootSize);
+    }
+    // 春季提升计划
+    .spring{
+        border-radius: (23/@rootSize);
+        height: (44/@rootSize);
+        line-height: (44/@rootSize);
+        text-align: center;
+        background-color: #FFF3F3;
+        font-size: (24/@rootSize);
+        color: #F01513;
+    }
+    // 报名活动
+    .list{
+        ul{
+            margin-top: (30/@rootSize);
+            margin-left: (130/@rootSize);
+            li{
+                margin-top: (12/@rootSize);
+                a{
+                    i{
+                        display: inline-block;
+                        margin-right: (10/@rootSize);
+                        width: (26/@rootSize);
+                        height: (26/@rootSize); 
+                        background-image: url(../images/减.png);
+                        background-size: contain;                   
+                    }
+                    .zhe{
+                        background-image: url(../images/折2.png);
+                    }
+                    .piao{
+                        background-image: url(../images/票.png);
+                    }
+                    .bao{
+                        background-image: url(../images/保.png);
+                    }
+                    span{
+                    font-size: (26/@rootSize);
+                    color: #333;
+                }
+                }
+            
+            }
+        }
+    }
+}
+// 课程滑动模块
+.class_slide{
+    margin-top: (20/@rootSize);
+    .title{
+        padding-left: (30/@rootSize);
+        height: (88/@rootSize);
+        line-height: (88/@rootSize);
+        border-bottom: 1px solid #F5F5F5 ;
+        background-color: #fff;
+        color: #333;
+        font-size: (28/@rootSize);
+    }
+    .list{
+        padding:(30/@rootSize) ;
+        overflow-x: scroll;
+        height: (154/@rootSize);
+        background-color: #fff;
+        ul{
+            display: flex;
+            li{
+                a{
+                   margin-right: (22/@rootSize);;
+                  img{
+                    width: (156/@rootSize);
+                    height: (94/@rootSize);
+                  }
+                   
+                }
+            }
+        }
+    }
+}
+// 商家信息模块
+.message{
+    padding-bottom: (100/@rootSize);
+    .title{
+        padding: (30/@rootSize);
+        margin-top: (20/@rootSize);
+        height: (88/@rootSize);
+        background-color: #fff;
+        font-size:  (28/@rootSize);
+        border-bottom: 1px solid #F5F5F5;
+    }
+    .txt{
+        padding:0 (30/@rootSize) ;
+        background-color: #fff;
+    ul{
+        li{
+            border-bottom: 1px solid #E2E5ED;
+            height: (86/@rootSize);
+            line-height: (86/@rootSize);
+            font-size: (26/@rootSize);
+        }
+    }
+    }
+}
+// 底部导航
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: (98/@rootSize);
+    width: 100%;
+    background-color: #fff;
+    ul{
+        display: flex;
+        height: 100%;
+        li{
+            flex: 1;
+            a{
+                display: flex;
+                height: 100%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width:(255/@rootSize);
+                    height: (88/@rootSize);
+                }
+                &.bg{
+                    background-color: #55B6ED;
+                }
+                &.pay{
+                    color: #333;
+                    font-size: (32/@rootSize);
+                }
+            }
+        }
+    }
+}

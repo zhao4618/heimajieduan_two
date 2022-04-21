@@ -1,0 +1,305 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1.73333333rem;
+  background-color: #fff;
+}
+header .title {
+  display: flex;
+  padding: 0 0.4rem;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .title .right .brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.13333333rem;
+}
+header .title .right .brand i {
+  margin-right: 0.13333333rem;
+  width: 0.8rem;
+  height: 0.48rem;
+  background-image: url(../images/品牌.png);
+  background-size: cover;
+}
+header .title .right .brand h3 {
+  font-size: 0.42666667rem;
+}
+header .title .right .txt {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+header .title .right .txt i {
+  position: absolute;
+  left: -0.42666667rem;
+  top: 0.08rem;
+  width: 0.32rem;
+  height: 0.32rem;
+  background-image: url(../images/减3.png);
+  background-size: cover;
+}
+header .title .right .txt span {
+  font-size: 0.32rem;
+  color: #666666;
+}
+header .blackboard {
+  display: flex;
+  padding: 0 0.4rem;
+  align-items: center;
+  height: 0.88rem;
+  background-color: #F2F4FB;
+}
+header .blackboard i {
+  margin-right: 0.13333333rem;
+  vertical-align: bottom;
+  width: 0.57333333rem;
+  height: 0.34666667rem;
+  background-image: url(../images/公告.png);
+  background-size: cover;
+}
+header .blackboard span {
+  font-size: 0.34666667rem;
+}
+header .course {
+  height: 1.17333333rem;
+  padding: 0rem !important;
+  background-color: #fff;
+}
+header .course ul {
+  display: flex;
+  height: 100%;
+}
+header .course ul li {
+  display: flex;
+  flex: 1;
+}
+header .course ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 0.37333333rem;
+}
+header .course ul li a.current {
+  color: #333;
+  font-weight: 700;
+}
+header .course ul li a:hover {
+  color: #333;
+  font-weight: 700;
+}
+.content_center {
+  margin-top: 4.08rem;
+  padding: 0.4rem;
+  height: 8.08rem;
+  background-color: #fff;
+}
+.content_center .title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0.8rem;
+  height: 1.33333333rem;
+  border-bottom: 1px solid #ccc;
+}
+.content_center .title .framework .learn {
+  display: flex;
+  align-items: center;
+}
+.content_center .title .framework .learn ul {
+  display: flex;
+}
+.content_center .title .framework .learn ul li a {
+  display: block;
+  margin-right: 0.13333333rem;
+  width: 0.32rem;
+  height: 0.29333333rem;
+  background-image: url(../images/xingxing1.png);
+  background-size: cover;
+}
+.content_center .title .framework .learn ul li a.current {
+  background-image: url(../images/xingxing2.png);
+}
+.content_center .title .framework span {
+  margin-right: 0.26666667rem;
+  color: #888;
+  font-size: 0.32rem;
+}
+.content_center .title .framework h3 {
+  margin-bottom: 0.26666667rem;
+  font-size: 0.34666667rem;
+}
+.content_center .collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.content_center .collection div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.82666667rem;
+  height: 0.82666667rem;
+  border-radius: 50%;
+  background-color: #FFF3F3;
+}
+.content_center .collection i {
+  width: 0.44rem;
+  height: 0.4rem;
+  background-image: url(../images/收藏.png);
+  background-size: cover;
+}
+.content_center .collection p {
+  color: #333;
+  font-size: 0.29333333rem;
+}
+.content_center .class_grade {
+  display: flex;
+  padding: 0.4rem 0;
+  height: 1.73333333rem;
+  border-bottom: 1px solid #D9DCE6;
+}
+.content_center .class_grade div {
+  flex: 1;
+}
+.content_center .class_grade div.bor {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.content_center .class_grade div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.content_center .class_grade div a .txt {
+  color: #333;
+  font-size: 0.37333333rem;
+}
+.content_center .notice {
+  margin: 0.33333333rem 0;
+  color: #333;
+  font-weight: 700;
+  font-size: 0.34666667rem;
+}
+.content_center .spring {
+  border-radius: 0.30666667rem;
+  height: 0.58666667rem;
+  line-height: 0.58666667rem;
+  text-align: center;
+  background-color: #FFF3F3;
+  font-size: 0.32rem;
+  color: #F01513;
+}
+.content_center .list ul {
+  margin-top: 0.4rem;
+  margin-left: 1.73333333rem;
+}
+.content_center .list ul li {
+  margin-top: 0.16rem;
+}
+.content_center .list ul li a i {
+  display: inline-block;
+  margin-right: 0.13333333rem;
+  width: 0.34666667rem;
+  height: 0.34666667rem;
+  background-image: url(../images/减.png);
+  background-size: contain;
+}
+.content_center .list ul li a .zhe {
+  background-image: url(../images/折2.png);
+}
+.content_center .list ul li a .piao {
+  background-image: url(../images/票.png);
+}
+.content_center .list ul li a .bao {
+  background-image: url(../images/保.png);
+}
+.content_center .list ul li a span {
+  font-size: 0.34666667rem;
+  color: #333;
+}
+.class_slide {
+  margin-top: 0.26666667rem;
+}
+.class_slide .title {
+  padding-left: 0.4rem;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  border-bottom: 1px solid #F5F5F5;
+  background-color: #fff;
+  color: #333;
+  font-size: 0.37333333rem;
+}
+.class_slide .list {
+  padding: 0.4rem;
+  overflow-x: scroll;
+  height: 2.05333333rem;
+  background-color: #fff;
+}
+.class_slide .list ul {
+  display: flex;
+}
+.class_slide .list ul li a {
+  margin-right: 0.29333333rem;
+}
+.class_slide .list ul li a img {
+  width: 2.08rem;
+  height: 1.25333333rem;
+}
+.message {
+  padding-bottom: 1.33333333rem;
+}
+.message .title {
+  padding: 0.4rem;
+  margin-top: 0.26666667rem;
+  height: 1.17333333rem;
+  background-color: #fff;
+  font-size: 0.37333333rem;
+  border-bottom: 1px solid #F5F5F5;
+}
+.message .txt {
+  padding: 0 0.4rem;
+  background-color: #fff;
+}
+.message .txt ul li {
+  border-bottom: 1px solid #E2E5ED;
+  height: 1.14666667rem;
+  line-height: 1.14666667rem;
+  font-size: 0.34666667rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1.30666667rem;
+  width: 100%;
+  background-color: #fff;
+}
+footer ul {
+  display: flex;
+  height: 100%;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li a img {
+  width: 3.4rem;
+  height: 1.17333333rem;
+}
+footer ul li a.bg {
+  background-color: #55B6ED;
+}
+footer ul li a.pay {
+  color: #333;
+  font-size: 0.42666667rem;
+}

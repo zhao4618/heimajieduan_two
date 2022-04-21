@@ -1,0 +1,204 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1.73333333rem;
+  background-color: #fff;
+}
+header .title {
+  display: flex;
+  padding: 0 0.4rem;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .title .right .brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.13333333rem;
+}
+header .title .right .brand i {
+  margin-right: 0.13333333rem;
+  width: 0.8rem;
+  height: 0.48rem;
+  background-image: url(../images/品牌.png);
+  background-size: cover;
+}
+header .title .right .brand h3 {
+  font-size: 0.42666667rem;
+}
+header .title .right .txt {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+header .title .right .txt i {
+  position: absolute;
+  left: -0.42666667rem;
+  top: 0.08rem;
+  width: 0.32rem;
+  height: 0.32rem;
+  background-image: url(../images/减3.png);
+  background-size: cover;
+}
+header .title .right .txt span {
+  font-size: 0.32rem;
+  color: #666666;
+}
+header .blackboard {
+  display: flex;
+  padding: 0 0.4rem;
+  align-items: center;
+  height: 0.88rem;
+  background-color: #F2F4FB;
+}
+header .blackboard i {
+  margin-right: 0.13333333rem;
+  vertical-align: bottom;
+  width: 0.57333333rem;
+  height: 0.34666667rem;
+  background-image: url(../images/公告.png);
+  background-size: cover;
+}
+header .blackboard span {
+  font-size: 0.34666667rem;
+}
+header .course {
+  height: 1.17333333rem;
+  padding: 0rem !important;
+  background-color: #fff;
+}
+header .course ul {
+  display: flex;
+  height: 100%;
+}
+header .course ul li {
+  display: flex;
+  flex: 1;
+}
+header .course ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 0.37333333rem;
+}
+header .course ul li a.current {
+  color: #333;
+  font-weight: 700;
+}
+header .course ul li a:hover {
+  color: #333;
+  font-weight: 700;
+}
+.hot_class {
+  display: flex;
+  padding: 4.08rem 0rem 1.30666667rem 0rem;
+}
+.hot_class .left {
+  position: fixed;
+  top: 4.13333333rem;
+  bottom: 0;
+  padding-left: 0.48rem;
+  padding-bottom: 1.33333333rem;
+  margin-right: 0.26666667rem;
+  width: 3.2rem;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.hot_class .left li {
+  line-height: 1.0667rem;
+}
+.hot_class .left li:first-child {
+  font-size: 0.37333333rem;
+  font-weight: 700px;
+}
+.hot_class .left li a {
+  color: #333;
+  font-size: 0.37333333rem;
+}
+.hot_class .right {
+  flex: 1;
+  padding-left: 3.46666667rem;
+}
+.hot_class .right .title {
+  margin-bottom: 0.13333333rem;
+}
+.hot_class .right .title .study {
+  height: 0.53333333rem;
+}
+.hot_class .right .title .study h5 {
+  padding-left: 0.06666667rem;
+  color: #888;
+  font-size: 0.32rem;
+}
+.hot_class .right .study_nav {
+  display: flex;
+  padding: 0.26666667rem;
+  padding-bottom: 0;
+  height: 2.18666667rem;
+  background-color: #fff;
+}
+.hot_class .right .study_nav .line {
+  display: flex;
+}
+.hot_class .right .study_nav .pic {
+  margin-right: 0.26666667rem;
+}
+.hot_class .right .study_nav .pic img {
+  width: 2.72rem;
+  height: 1.65333333rem;
+}
+.hot_class .right .study_nav .txt h4 {
+  font-size: 0.37333333rem;
+  color: #333;
+}
+.hot_class .right .study_nav .txt p {
+  margin-bottom: 0.12rem;
+  color: #888;
+  font-size: 0.32rem;
+}
+.hot_class .right .study_nav .txt .up {
+  display: block;
+  width: 2.61333333rem;
+  height: 0.61333333rem;
+  line-height: 0.61333333rem;
+  font-size: 0.32rem;
+  text-align: center;
+  color: #1C9FEA;
+  font-weight: 700;
+  background-color: #EDF8FF;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1.30666667rem;
+  width: 100%;
+  background-color: #fff;
+}
+footer ul {
+  display: flex;
+  height: 100%;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li a img {
+  width: 3.4rem;
+  height: 1.17333333rem;
+}
+footer ul li a.bg {
+  background-color: #55B6ED;
+}
+footer ul li a.pay {
+  color: #333;
+  font-size: 0.42666667rem;
+}
